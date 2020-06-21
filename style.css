@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #7f55f5;
+    color: #fff;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+}
+
+header .container {
+    height: 300px;
+}
+
+.nav {
+    display: flex;
+    height: 30%;
+}
+
+.nav .logo {
+    /* float: left; */
+    flex: 1;
+    padding: 20px;
+}
+
+.nav .menu {
+    /* float: left; */
+    /* flex: 1; */
+}
+
+.menu ul {
+    margin-top: 10px;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding: 20px;
+    list-style: none;
+    font-size: 22px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.process {
+    height: 70%;
+}
+
+.cont {
+    width: 50%;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.cont h1 {
+    padding: 20px;
+    font-size: 2rem;
+}
+
+.cont p {
+    color: #d4cccc;
+}
+
+.cont {
+    font-size: 1.2rem;
+}
+
+.col {
+    width: 100%;
+
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+.col .one {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+.col .two {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+.col .first {
+    padding: 30px;
+    height: 100%;
+}
+
+.col .first h3 {
+    padding: 15px 0;
+    font-size: 23px;
+    color: #515558;
+}
+
+.col .first p {
+    line-height: 30px;
+    font-size: 1.2rem;
+    color: #a4a4a4;
+    margin-bottom: 20px;
+}
+
+.col .second {
+    padding: 30px;
+}
+
+.col .second img {
+    width: 100%;
+    height: 350px;
+}
+
+.col-4 .one a {
+    text-decoration: none;
+    background: #5e2ced;
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.col-4 .one a:hover {
+    background: #2b078f;
+}
+
+.footer {
+    background: #f6f5fa;
+    overflow: hidden;
+}
+
+.footer .container {
+    margin-top: 40px;
+}
+
+.foot1 {
+    width: 25%;
+    float: left;
+}
+
+.foot1 .wrap {
+    padding: 20px;
+}
+
+.foot1 h3 {
+    color: #515558;
+}
+
+.foot1 .wrap p {
+    color: #a4a4a4;
+}
+
+.foot1 ul {
+    margin-top: 10px;
+}
+
+.foot1 ul li {
+    list-style: none;
+    padding: 10px 0;
+    color: #a4a4a4;
+}
+
+.footimg img {
+    width: 100%;
+}
